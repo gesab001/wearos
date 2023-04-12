@@ -1,0 +1,73 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="video.js"></script>
+<script src="devices.js"></script>
+<link rel="stylesheet" type="text/css" href="app.css"/>
+
+<body>
+
+
+<h1 id="demoTitle">God is Love Demo</h1>
+
+<label style="font-size:24px" for="sdkSelection">Choose your device:</label>
+
+<select id="sdkSelection" onchange="changeVideo()">
+  <option class="deviceOptions" value="5" id="sdk5">Versa 3/Sense</option>
+  <option class="deviceOptions" value="4" id="sdk4">Versa 2/Versa/Lite</option>
+</select>
+
+
+<video id="videoPlayer" width="100%" height="100%" controls>
+  <source src="./app/5/afterlife.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</body>
+
+
+
+<script>
+//file:///C:/Users/giova/fitbit/?appType=app&sdk=4&appName=God%20is%20Love
+var clock = "CLOCK";
+const queryString = window.location.search;
+console.log(queryString);
+const urlParams = new URLSearchParams(queryString);
+const appType = urlParams.get('appType');
+console.log(appType);
+const sdk = urlParams.get('sdk');
+console.log("sdk: " + sdk);
+var devicesListSdk4 = devices.get()["items"]["sdk4"];
+var devicesListSdk5 = devices.get()["items"]["sdk5"];
+console.log(devicesListSdk4);
+document.getElementById("sdk4").innerHTML = devicesListSdk4.join(", ");
+document.getElementById("sdk5").innerHTML = devicesListSdk5.join(", ");
+
+console.log(devicesListSdk5);
+const appName = urlParams.get('appName');
+console.log(appName);
+var demoTitle = appName.replace(/_/g, " ").toUpperCase();
+if (appType==="clockface"){
+  demoTitle =  appName.replace(/_/g, " ").toUpperCase() + " " + clock;
+}
+document.getElementById("demoTitle").innerHTML = demoTitle;
+
+
+function setDefaultVideo(){
+  var sdk = 5;
+  var filename = appName.replace(/\s+/g, '_').toLowerCase() + ".mp4";
+  var src = "./"+ appType +"/"+sdk+"/"+filename;
+  console.log("src: " + src);
+  video.setFilename(src);
+  }
+setDefaultVideo();
+
+function changeVideo(){
+  var sdk = document.getElementById("sdkSelection").value;
+  console.log(sdk);
+  var filename = appName.replace(/\s+/g, '_').toLowerCase() + ".mp4";
+  var src = "./"+ appType +"/"+sdk+"/"+filename;
+  console.log("src: " + src);
+  video.setFilename(src);
+}
+</script>
+</html>
