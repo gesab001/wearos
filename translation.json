@@ -1,0 +1,28 @@
+{
+	"labels": {
+		"chooseYourDeviceId": {
+			"en": "Choose your device",
+			"es": "Elige tu dispositivo",
+			"fr": "Choisissez votre appareil"
+		},
+		"round": {
+			"en": "round",
+			"es": "redonda",
+			"fr": "rond"
+		},
+		"rectangle": {
+			"en": "rectangle",
+			"es": "rectángulo",
+			"fr": "rectangle"
+		}
+	},
+	"appTitles": {
+		"blessedbibleclockface": {
+			"en": "Blessed Bible Clock Face",
+			"es": "Bendito Reloj Bíblico",
+			"fr": "Heureux Bible Horloge"
+		}
+
+	}
+
+}

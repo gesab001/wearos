@@ -10,11 +10,11 @@
 
 <h1 id="demoTitle">God is Love Demo</h1>
 
-<label style="font-size:24px" for="sdkSelection">Choose your device:</label>
+<label id="chooseYourDeviceId" style="font-size:24px" for="sdkSelection">Choose your device:</label>
 
-<select id="sdkSelection" onchange="changeVideo()">
-  <option class="deviceOptions" value="5" id="sdk5">Versa 3/Sense</option>
-  <option class="deviceOptions" value="4" id="sdk4">Versa 2/Versa/Lite</option>
+<select id="deviceShapeSelection" onchange="changeVideo()">
+  <option class="deviceOptions" value="round" id="round">Round</option>
+  <option class="deviceOptions" value="rectangle" id="rectangle">Rectangle</option>
 </select>
 
 
@@ -28,46 +28,70 @@
 
 <script>
 //file:///C:/Users/giova/fitbit/?appType=app&sdk=4&appName=God%20is%20Love
+//https://gesab001.github.io/wearos?appType=app&language=en&appName=abigail
+
 var clock = "CLOCK";
 const queryString = window.location.search;
 console.log(queryString);
 const urlParams = new URLSearchParams(queryString);
 const appType = urlParams.get('appType');
-console.log(appType);
-const sdk = urlParams.get('sdk');
-console.log("sdk: " + sdk);
-var devicesListSdk4 = devices.get()["items"]["sdk4"];
-var devicesListSdk5 = devices.get()["items"]["sdk5"];
-console.log(devicesListSdk4);
-document.getElementById("sdk4").innerHTML = devicesListSdk4.join(", ");
-document.getElementById("sdk5").innerHTML = devicesListSdk5.join(", ");
-
-console.log(devicesListSdk5);
+const deviceList = ["round", "rectangle"];
+const deviceShape = urlParams.get('deviceShape');
+var deviceShapeIndex = deviceList.indexOf(deviceShape);
+const language = urlParams.get('language');
 const appName = urlParams.get('appName');
-console.log(appName);
-var demoTitle = appName.replace(/_/g, " ").toUpperCase();
-if (appType==="clockface"){
-  demoTitle =  appName.replace(/_/g, " ").toUpperCase() + " " + clock;
-}
-document.getElementById("demoTitle").innerHTML = demoTitle;
 
+var deviceShapeSelection = document.getElementById('deviceShapeSelection');
+deviceShapeSelection.selectedIndex = deviceShapeIndex;
 
 function setDefaultVideo(){
-  var sdk = 5;
-  var filename = appName.replace(/\s+/g, '_').toLowerCase() + ".mp4";
-  var src = "./"+ appType +"/"+sdk+"/"+filename;
+  var filename = appName.replace(/\s+/g, '').toLowerCase() + ".mp4";
+  var src = "./"+ appType +"/"+deviceShape+"/"+language+"/"+filename;
   console.log("src: " + src);
   video.setFilename(src);
   }
 setDefaultVideo();
 
 function changeVideo(){
-  var sdk = document.getElementById("sdkSelection").value;
-  console.log(sdk);
-  var filename = appName.replace(/\s+/g, '_').toLowerCase() + ".mp4";
-  var src = "./"+ appType +"/"+sdk+"/"+filename;
+  var deviceShape = document.getElementById("deviceShapeSelection").value;
+  console.log(deviceShape);
+  var filename = appName.replace(/\s+/g, '').toLowerCase() + ".mp4";
+  var src = "./"+ appType +"/"+deviceShape+"/"+language+"/"+filename;
   console.log("src: " + src);
   video.setFilename(src);
 }
+
+function loadTranslation(data){
+
+     
+	var chooseYourDeviceId = document.getElementById("chooseYourDeviceId");
+	var round = document.getElementById("round");
+	var rectangle = document.getElementById("rectangle");
+
+	var chooseYourDeviceIdText = data["labels"]["chooseYourDeviceId"][language];
+	chooseYourDeviceId.innerHTML = chooseYourDeviceIdText;
+	var roundtext = data["labels"]["round"][language];
+	var rectangleText = data["labels"]["rectangle"][language];
+	round.innerHTML = roundtext;
+	rectangle.innerHTML = rectangleText;
+	
+	var videoTitle = document.getElementById("demoTitle");
+	var videoTitleText = data["appTitles"][appName][language];
+	videoTitle.innerHTML = videoTitleText;
+
+	
+
+}
+
+function fetchTranslation(filename){
+	console.log("fetchTranslation");
+fetch(filename)
+  .then((response) => response.json())
+  .then(loadTranslation);
+  
+}
+
+
+fetchTranslation("translation.json");
 </script>
 </html>
