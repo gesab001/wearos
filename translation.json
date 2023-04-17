@@ -3,17 +3,23 @@
 		"chooseYourDeviceId": {
 			"en": "Choose your device",
 			"es": "Elige tu dispositivo",
-			"fr": "Choisissez votre appareil"
+			"fr": "Choisissez votre appareil",
+			"ko": "기기를 선택하세요",
+			"de": "Wählen Sie Ihr Gerät"
 		},
 		"round": {
 			"en": "round",
 			"es": "redonda",
-			"fr": "rond"
+			"fr": "rond",
+			"ko": "둥근"
+			"de": "runden"
 		},
 		"rectangle": {
 			"en": "rectangle",
 			"es": "rectángulo",
-			"fr": "rectangle"
+			"fr": "rectangle",
+			"ko": "직사각형",
+			"de": "Rechteck"
 		}
 	},
 	"appTitles": {
@@ -21,7 +27,8 @@
 			"en": "Blessed Bible Clock Face",
 			"es": "Bendito Reloj Bíblico",
 			"fr": "Heureux Bible Horloge",
-			"ko": "축복받은 성경 시계"
+			"ko": "축복받은 성경 시계",
+			"de": "Selig Bibel Uhr"
 
 		}
 
