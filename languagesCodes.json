@@ -1,0 +1,272 @@
+[
+    {
+        "language": "Albanian",
+        "code": "sq",
+        "bibleversion": "albanian"
+    },
+    {
+        "language": "Arabic",
+        "code": "ar",
+        "bibleversion": "arabicsv"
+    },
+    {
+        "language": "Bulgarian",
+        "code": "bg",
+        "bibleversion": "BULG"
+    },
+    {
+        "language": "Chinese (Simplified)",
+        "code": "zh",
+        "bibleversion": "cus"
+    },
+    {
+        "language": "Chinese (Traditional)",
+        "code": "zh-TW",
+        "bibleversion": "cut"
+    },
+    {
+        "language": "Croatian",
+        "code": "hr",
+        "bibleversion": "CB"
+    },
+    {
+        "language": "Czech",
+        "code": "cs",
+        "bibleversion": "bkr"
+    },
+    {
+        "language": "Danish",
+        "code": "da",
+        "bibleversion": "danish"
+    },
+    {
+        "language": "Dutch",
+        "code": "nl",
+        "bibleversion": "statenvertaling"
+    },
+    {
+        "language": "English",
+        "code": "en",
+        "bibleversion": "kjv"
+    },
+    {
+        "language": "Estonian",
+        "code": "et",
+        "bibleversion": "EP"
+    },
+    {
+        "language": "Filipino (Tagalog)",
+        "code": "fil",
+        "bibleversion": "adb1905"
+    },
+    {
+        "language": "Finnish",
+        "code": "fi",
+        "bibleversion": "pyharaamattu1933"
+    },
+    {
+        "language": "French",
+        "code": "fr",
+        "bibleversion": "ls1910"
+    },
+    {
+        "language": "German",
+        "code": "de",
+        "bibleversion": "luther1912"
+    },
+    {
+        "language": "Greek",
+        "code": "el",
+        "bibleversion": "moderngreek"
+    },
+    {
+        "language": "Hungarian",
+        "code": "hu",
+        "bibleversion": "karoli"
+    },
+    {
+        "language": "Italian",
+        "code": "it",
+        "bibleversion": "riveduta1927"
+    },
+    {
+        "language": "Japanese",
+        "code": "ja",
+        "bibleversion": "JKY"
+    },
+    {
+        "language": "Khmer",
+        "code": "km"
+    },
+    {
+        "language": "Korean",
+        "code": "ko",
+        "bibleversion": "KRV"
+    },
+    {
+        "language": "Kyrgyz",
+        "code": "ky"
+    },
+    {
+        "language": "Latvian",
+        "code": "lv",
+        "bibleversion": "LAV"
+    },
+    {
+        "language": "Lithuanian",
+        "code": "lt",
+        "bibleversion": "LBD"
+    },
+    {
+        "language": "Maithili",
+        "code": "mai"
+    },
+    {
+        "language": "Malay",
+        "code": "ms",
+        "bibleversion": "BM"
+    },
+    {
+        "language": "Maori",
+        "code": "mi",
+        "bibleversion": "maori"
+    },
+    {
+        "language": "Mongolian",
+        "code": "mn"
+    },
+    {
+        "language": "Norwegian",
+        "code": "nb",
+        "bibleversion": "dnb1930"
+    },
+    {
+        "language": "Pashto",
+        "code": "ps"
+    },
+    {
+        "language": "Persian",
+        "code": "fa",
+        "bibleversion": "PES"
+    },
+    {
+        "language": "Polish",
+        "code": "pl",
+        "bibleversion": "POG"
+    },
+    {
+        "language": "Portuguese",
+        "code": "pt",
+        "bibleversion": "almeida"
+    },
+    {
+        "language": "Punjabi",
+        "code": "pa",
+        "bibleversion": "PAN"
+    },
+    {
+        "language": "Romanian",
+        "code": "ro"
+    },
+    {
+        "language": "Russian",
+        "code": "ru",
+        "bibleversion": "rst1876"
+    },
+    {
+        "language": "Sanskrit",
+        "code": "sa"
+    },
+    {
+        "language": "Sepedi",
+        "code": "nso"
+    },
+    {
+        "language": "Serbian",
+        "code": "sr",
+        "bibleversion": "nsp"
+    },
+    {
+        "language": "Shona",
+        "code": "sn"
+    },
+    {
+        "language": "Sinhala (Sinhalese)",
+        "code": "si"
+    },
+    {
+        "language": "Slovenian",
+        "code": "sl"
+    },
+    {
+        "language": "Somali",
+        "code": "so",
+        "bibleversion": "SOM"
+    },
+    {
+        "language": "Spanish",
+        "code": "es",
+        "bibleversion": "RVA"
+    },
+    {
+        "language": "Swahili",
+        "code": "sw"
+    },
+    {
+        "language": "Swedish",
+        "code": "sv",
+        "bibleversion": "SV1917"
+    },
+    {
+        "language": "Tagalog (Filipino)",
+        "code": "fil",
+        "bibleversion": "adb1905"
+    },
+    {
+        "language": "Tamil",
+        "code": "ta"
+    },
+    {
+        "language": "Telugu",
+        "code": "te"
+    },
+    {
+        "language": "Tigrinya",
+        "code": "ti"
+    },
+    {
+        "language": "Turkish",
+        "code": "tr"
+    },
+    {
+        "language": "Twi (Akan)",
+        "code": "ak"
+    },
+    {
+        "language": "Ukrainian",
+        "code": "uk",
+        "bibleversion": "UKR"
+    },
+    {
+        "language": "Uyghur",
+        "code": "ug"
+    },
+    {
+        "language": "Uzbek",
+        "code": "uz",
+        "bibleversion": "UZB"
+    },
+    {
+        "language": "Vietnamese",
+        "code": "vi",
+        "bibleversion": "vietnamese"
+    },
+    {
+        "language": "Xhosa",
+        "code": "xh"
+    },
+    {
+        "language": "Yoruba",
+        "code": "yo"
+    }
+]
