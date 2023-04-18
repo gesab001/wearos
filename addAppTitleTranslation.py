@@ -54,13 +54,6 @@ f = open(path, "r", encoding="utf-8")
 booksOfTheBibleInDifferentLanguages = json.loads(f.read())
 f.close()
 
-
-def getOriginalBibleVerses(pathToLanguageJson):
-  f = open(pathToLanguageJson, "r", encoding="utf8")
-  jsondata = json.loads(f.read())
-  f.close()
-  return jsondata
-  
 def translateTitle(languageCode):
     #source_dir  = os.path.join(appFolder, "language.js")
     #destination_dir = os.path.join(appFolder, "locales", languageCode, "language.js" )
@@ -74,17 +67,6 @@ def translateTitle(languageCode):
     with open(pathToLanguageJson, "w", encoding="utf8") as outfile:
       json.dump(languagejsJson, outfile, ensure_ascii=False, indent=4)
       
-def getBible(bibleversion):
-    print("bibleversion: " + bibleversion)
-    zipfile = bibleversion + ".zip"
-    folder = bibleversion
-    jsonfile = bibleversion + ".json"
-    pathtozip = os.path.join(r"C:\Users\giova\Documents\bibles", zipfile )
-    print("path: " + pathtozip)
-    print(os.path.exists(pathtozip))
-    #archive = zipfile.ZipFile(pathtozip, 'r')
-    #jsondata = archive.read(folder + "/" + jsonfile)
-    #print(jsondata)
 
 labelsopen = open("translation.json", "r",  encoding='utf-8')
 labelsjsondata = json.loads(labelsopen.read())
