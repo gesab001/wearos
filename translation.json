@@ -42,8 +42,8 @@
         "joybiblewatchface": {
             "en": "Joy Bible Watch Face"
         },
-        "mylampbiblewatchface": {
-            "en": "My Lamp Bible Watch Face"
+        "my_lamp_bible_clock_face": {
+            "en": "My Lamp Bible Clock Face"
         },
         "shepherdbiblewatchface": {
             "en": "My Shepherd Bible Watch Face"
@@ -167,8 +167,5 @@
             "zh": "圆形的",
             "zh-TW": "圓形的"
         }
-    },
-    "my_lamp_bible_clock_face": {
-        "en": "My Lamp Bible Clock Face"
     }
 }
