@@ -1,52 +1,52 @@
 {
     "appTitles": {
-		"mylampbiblewatchface": {
-			"en": "My Lamp Bible Watch Face"
-		},
-		"shepherdbiblewatchface": {
-			"en": "My Shepherd Bible Watch Face"
-		},
-		"joybiblewatchface": {
-			"en": "Joy Bible Watch Face"
-		},
         "blessedbibleclockface": {
-			"ar": "ساعة الكتاب المقدس المباركة",
-			"bg": "Благословен библейски часовник",
-			"cs": "Požehnané biblické hodiny",
-			"da": "Det velsignede bibelur",
-			"de": "Gesegnete Bibeluhr",
-			"el": "Ευλογημένο Βιβλικό Ρολόι",
-			"en": "Blessed Bible Clockface",
-			"es": "Bendita Biblia Reloj",
-			"et": "Õnnistatud piiblikell",
-			"fa": "ساعت کتاب مقدس مبارک",
-			"fi": "Siunattu Raamatun kello",
-			"fil": "Pinagpalang Orasan ng Bibliya",
-			"fr": "Horloge biblique bénie",
-			"hr": "Blagoslovljeni biblijski sat",
-			"hu": "Áldott Biblia óra",
-			"it": "Orologio biblico benedetto",
-			"ja": "祝福された聖書の時計",
-			"ko": "축복받은 성경 시계",
-			"lt": "Palaimintas Biblijos laikrodis",
-			"lv": "Svētītais Bībeles pulkstenis",
-			"mi": "Karaka Paipera manaaki",
-			"ms": "Jam Alkitab yang diberkati",
-			"nb": "Velsignet bibelklokke",
-			"nl": "Gezegende Bijbelklok",
-			"pa": "ਮੁਬਾਰਕ ਬਾਈਬਲ ਘੜੀ",
-			"pl": "Błogosławiony zegar biblijny",
-			"pt": "Relógio Bíblico Abençoado",
-			"ru": "Благословенные библейские часы",
-			"so": "Saacadda Kitaabka Quduuska ah",
-			"sq": "Ora e bekuar e Biblës",
-			"sr": "Благословени библијски сат",
-			"sv": "Välsignad bibelklocka",
-			"uk": "Благословенний біблійний годинник",
-			"uz": "Muborak Injil soati",
-			"vi": "Đồng hồ Kinh thánh",
-			"zh": "受祝福的圣经时钟",
-			"zh-TW": "受祝福的聖經時鐘"
+            "ar": "ساعة الكتاب المقدس المباركة",
+            "bg": "Благословен библейски часовник",
+            "cs": "Požehnané biblické hodiny",
+            "da": "Det velsignede bibelur",
+            "de": "Gesegnete Bibeluhr",
+            "el": "Ευλογημένο Βιβλικό Ρολόι",
+            "en": "Blessed Bible Clockface",
+            "es": "Bendita Biblia Reloj",
+            "et": "Õnnistatud piiblikell",
+            "fa": "ساعت کتاب مقدس مبارک",
+            "fi": "Siunattu Raamatun kello",
+            "fil": "Pinagpalang Orasan ng Bibliya",
+            "fr": "Horloge biblique bénie",
+            "hr": "Blagoslovljeni biblijski sat",
+            "hu": "Áldott Biblia óra",
+            "it": "Orologio biblico benedetto",
+            "ja": "祝福された聖書の時計",
+            "ko": "축복받은 성경 시계",
+            "lt": "Palaimintas Biblijos laikrodis",
+            "lv": "Svētītais Bībeles pulkstenis",
+            "mi": "Karaka Paipera manaaki",
+            "ms": "Jam Alkitab yang diberkati",
+            "nb": "Velsignet bibelklokke",
+            "nl": "Gezegende Bijbelklok",
+            "pa": "ਮੁਬਾਰਕ ਬਾਈਬਲ ਘੜੀ",
+            "pl": "Błogosławiony zegar biblijny",
+            "pt": "Relógio Bíblico Abençoado",
+            "ru": "Благословенные библейские часы",
+            "so": "Saacadda Kitaabka Quduuska ah",
+            "sq": "Ora e bekuar e Biblës",
+            "sr": "Благословени библијски сат",
+            "sv": "Välsignad bibelklocka",
+            "uk": "Благословенний біблійний годинник",
+            "uz": "Muborak Injil soati",
+            "vi": "Đồng hồ Kinh thánh",
+            "zh": "受祝福的圣经时钟",
+            "zh-TW": "受祝福的聖經時鐘"
+        },
+        "joybiblewatchface": {
+            "en": "Joy Bible Watch Face"
+        },
+        "mylampbiblewatchface": {
+            "en": "My Lamp Bible Watch Face"
+        },
+        "shepherdbiblewatchface": {
+            "en": "My Shepherd Bible Watch Face"
         }
     },
     "labels": {
@@ -167,5 +167,8 @@
             "zh": "圆形的",
             "zh-TW": "圓形的"
         }
+    },
+    "my_lamp_bible_clock_face": {
+        "en": "My Lamp Bible Clock Face"
     }
 }
