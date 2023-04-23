@@ -42,11 +42,11 @@
         "joy_bible_watch_face": {
             "en": "Joy Bible Watch Face"
         },
-        "my_lamp_bible_clock_face": {
-            "en": "My Lamp Bible Clock Face"
+        "my_lamp_bible_watch_face": {
+            "en": "My Lamp Bible Watch Face"
         },
-        "my_shepherd_bible_clock_face": {
-            "en": "My Shepherd Bible Clock Face"
+        "my_shepherd_bible_watch_face": {
+            "en": "My Shepherd Bible Watch Face"
         },
         "my_shepherd_bible_watch_face": {
             "en": "My Shepherd Bible Watch Face"
@@ -55,7 +55,7 @@
             "en": "My Shepherd Bible Watch Face"
         },
         "wait_bible_watch_face": {
-            "en": "Wait Bible Clock Face"
+            "en": "Wait Bible Watch Face"
         }
     },
     "labels": {
